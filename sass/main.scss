@@ -480,7 +480,11 @@ body {
 		font-size: 1.4rem;
 	}
 	&__box-desktop {
+<<<<<<< HEAD
 		display: none;
+=======
+		// display: none;
+>>>>>>> 25f0c5d84d923c15e5146d5e786727c0d05246fc
 	}
 	&__box-title {
 		margin-bottom: 1em;
@@ -505,10 +509,13 @@ body {
 			color: $light-white;
 		}
 	}
+<<<<<<< HEAD
 	&__bottom-text {
 		padding: 2em;
 		text-align: center;
 	}
+=======
+>>>>>>> 25f0c5d84d923c15e5146d5e786727c0d05246fc
 }
 
 // MEDIA
