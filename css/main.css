@@ -179,15 +179,6 @@ body {
   transform: scaleY(1);
 }
 
-@-webkit-keyframes navItemsAnimation {
-  from {
-    transform: translateX(200%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
 @keyframes navItemsAnimation {
   from {
     transform: translateX(200%);
@@ -197,8 +188,7 @@ body {
   }
 }
 .nav-items-animation {
-  -webkit-animation: navItemsAnimation 1s both;
-          animation: navItemsAnimation 1s both;
+  animation: navItemsAnimation 1s both;
 }
 
 .header {
@@ -534,12 +524,9 @@ body {
 .footer__box {
   font-size: 1.4rem;
 }
-<<<<<<< HEAD
 .footer__box-desktop {
   display: none;
 }
-=======
->>>>>>> 25f0c5d84d923c15e5146d5e786727c0d05246fc
 .footer__box-title {
   margin-bottom: 1em;
   font-size: 3rem;
@@ -561,13 +548,10 @@ body {
 .footer__box-link:hover {
   color: #eee;
 }
-<<<<<<< HEAD
 .footer__bottom-text {
   padding: 2em;
   text-align: center;
 }
-=======
->>>>>>> 25f0c5d84d923c15e5146d5e786727c0d05246fc
 
 @media (min-width: 576px) {
   .dreams__box {
