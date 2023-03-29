@@ -17,6 +17,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.6rem;
 }
+
 //  NAV
 .burger-btn {
 	position: fixed;
@@ -34,8 +35,8 @@ body {
 		border-radius: 8px;
 	}
 	&:hover {
-		.burger-btn_bars::after,
-		.burger-btn_bars::before {
+		.burger-btn__bars::after,
+		.burger-btn__bars::before {
 			width: 100%;
 		}
 	}
@@ -118,6 +119,11 @@ body {
 	animation: navItemsAnimation 1s both;
 }
 
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+	background-color: $dark;
+}
 // HEADER
 .header {
 	position: relative;
